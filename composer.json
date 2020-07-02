@@ -1,0 +1,9 @@
+{
+  "name": "lightningsdk/slider",
+  "type": "library",
+  "description": "Creates a wrapper for slick slider.",
+  "version": "1.0.0",
+  "require": {
+    "kenwheeler/slick": "^1.6"
+  }
+}
