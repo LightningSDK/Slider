@@ -13,5 +13,15 @@ return [
                 'slick/slick-theme.scss' => 'slick.css',
             ],
         ],
+        'sass' => [
+            'vars' => [
+                '$slick-font-path' => '/fonts/slick/',
+            ],
+        ],
+        'copy' => [
+            'kenwheeler/slick' => [
+                'slick/fonts/*' => 'fonts/slick',
+            ],
+        ],
     ],
 ];
